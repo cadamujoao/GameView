@@ -1,0 +1,75 @@
+
+
+  
+#games {
+    display: grid;
+    max-width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 0 auto;
+}
+  
+  
+#games .card {
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: black;
+    font-style: normal;
+    color: white;
+    overflow: hidden;
+    max-width: 250px;
+    aspect-ratio: 3/4;
+    transition: all 0.3s ease-in-out;
+    
+}    
+  
+
+.img{
+    width: auto;
+    height: auto;
+    aspect-ratio: 16/9;
+    background: #ccc; /* placeholder cinza */
+    object-fit: cover;
+}
+
+  
+.card:hover{
+    
+    transform: scale(1.05);
+}
+
+  
+#loading {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#fim{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+  
+
+  
+/* @media (max-width: 1200px) {
+    #games {
+        column-count: 3;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #games {
+        column-count: 2;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #games {
+        column-count: 1;
+    }
+} */
+

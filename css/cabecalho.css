@@ -1,0 +1,56 @@
+.navbar{
+    background-color:black;
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    align-self: left;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.aa{
+    margin: 10px;
+    max-width: 70px;
+    aspect-ratio: 1;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 0px;
+}
+
+.ss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.ss:hover{
+    color: white;
+    text-decoration: none; 
+    scale: 1.2;
+    
+    
+}
+
+.sair{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

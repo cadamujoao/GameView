@@ -1,0 +1,60 @@
+table {
+  border-collapse: separate;
+  max-width: 60%;
+  transition: max-width 0.2s ease-in-out;
+  min-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(63, 63, 63, 0.14);
+}
+
+@media (max-width: 768px) {
+  table {
+    max-width: 90%;
+  }
+}
+
+td {
+  height: 50px;
+  text-align: center;
+  border-bottom: 1.4px solid #969696;
+}
+
+tbody tr:last-child td{
+  border-color: transparent;
+}
+
+.editar, .salvar, .cancelar, .certo{
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.editar:hover, .salvar:hover, .cancelar:hover, .certo:hover {
+    transform: scale(1.05);
+}
+
+.editar:focus, .salvar:focus, .cancelar:focus, .certo:focus {
+    outline: none;
+}
+
+.editar {
+    background: url('../includes/editar.png') no-repeat center/cover;
+}
+
+.cancelar{
+    background: url('../includes/cancelar.png') no-repeat center/cover;
+}
+
+.salvar {
+    background: url('../includes/salvar.png') no-repeat center/cover;
+}
+
+.certo {
+    background: url('../includes/certo.png') no-repeat center/cover;
+}
+
