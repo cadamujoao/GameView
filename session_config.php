@@ -10,10 +10,8 @@ session_set_cookie_params([
     'samesite' => 'Lax'                   // 'Strict' pode bloquear login com POST
 ]);
 
-// Inicia a sessão
 session_start();
 
-// Reforça o tempo de vida do cookie atual (atualiza o vencimento a cada acesso)
 setcookie(session_name(), session_id(), [
     'expires'  => time() + $tempo,        // Validade do cookie = agora + 4 dias
     'path'     => '/',                    // Disponível em todo o site
