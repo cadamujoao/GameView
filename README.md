@@ -22,3 +22,5 @@ Site:
 1. Após baixar e extrair o arquivo .zip, copie a pasta **"GameView-X.0"**
 2. Acesse C:\xampp\htdocs e cole a pasta, renomeie a pasta para **"gameview"**
 3. Acesse o site pelo navegador "localhost/gameview"
+
+![Tela](uploads/tela.png)
